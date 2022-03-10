@@ -8,11 +8,11 @@ const assertEqual = function(actual, expected) {
 
 const findKeyByValue = function(objectTaken, valueToFind) {
   let arrayKeys = Object.keys(objectTaken);
-  let arrayValues = Object.values(objectTaken);
-  for (let index = 0; index < arrayValues.length; index++) {
+  //let arrayValues = Object.values(objectTaken);
+  for (let items of arrayKeys) {
 
-    if (arrayValues[index] === valueToFind) {
-      return arrayKeys[index];
+    if (objectTaken[items] === valueToFind) {
+      return items;
     }
   }
 };
