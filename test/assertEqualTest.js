@@ -1,3 +1,3 @@
 const assertEqual = require('../assertEqual.js')
-assertEqual(true, false);
+assertEqual(false, false);
 assertEqual('lekan', 'lekan');
