@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@OOgunremi/lotide",
   "version": "1.0.0",
-  "description": "LHL Web Bootcamp first project",
+  "description": "Lotide - LHL Web Bootcamp first project",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -16,7 +16,7 @@
   "keywords": [
     "lotide"
   ],
-  "author": "Lekan Ogunremi",
+  "author": "Olalekan Isaac Ogunremi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/OOgunremi/lotide/issues"
