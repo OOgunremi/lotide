@@ -8,6 +8,3 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 module.exports = assertArraysEqual;
-//assertArraysEqual([1, 2, 3], [1, 2, 3]);
-//assertArraysEqual([1,2,3], [1,2, ,3])
-//assertArraysEqual([1,2,3], [1,2,'3']);

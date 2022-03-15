@@ -30,23 +30,18 @@ const eqObjects = function(objectOne, objectTwo) {
 
     for (let content of keysArrayOne) {
       if (Array.isArray(objectOne[content]) && Array.isArray(objectTwo[content])) {
-        
         if (eqArrays(objectOne[content], objectTwo[content]) === false) {
           return false;
         }
-
       } else {
-       
         if (objectOne[content] !== objectTwo[content]) {
           return false;
-        
         }
       }
     } return true;
   }
-
 };
-
+module.exports = eqObjects;
 //Test Centre
 const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };

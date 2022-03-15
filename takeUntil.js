@@ -26,7 +26,7 @@ const takeUntil = function(array, callback) {
   }
   return output;
 };
-
+module.exports = takeUntil;
 
 //This section is for testing
 const eqArrays = function(arrayOne, arrayTwo) {
